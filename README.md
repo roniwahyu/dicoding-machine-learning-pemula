@@ -17,3 +17,5 @@ Selamat, Anda telah berada di akhir pembelajaran dalam akademi ini. Anda sudah m
 -   Program dikerjakan pada **Google Colaboratory**.
 -   **Akurasi** dari model minimal **85%**.
 -   Dapat **memprediksi gambar** yang diunggah ke Colab seperti gambar di bawah.
+![enter image description here](https://d17ivq9b7rppb3.cloudfront.net/original/academy/202004302318257ec23b834046174a7d426680e488905e.png)
+- Manambahkan **data diri** (sesuai profil Dicoding) pada **submission/project** yang dikirimkan.
