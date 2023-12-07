@@ -1,0 +1,22 @@
+# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+tasks:
+    - init: >
+          gp open README.md;
+          python3 src/app.py;
+      command: >
+          gp open README.md;
+          pip install -r "requirements.txt";
+          pip install --upgrade pip;
+
+# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+ports:
+    - port: 6080
+      onOpen: ignore
+
+# Install necessary packages
+image:
+    file: .gitpod.dockerfile
+
+vscode:
+    extensions:
+        - ms-toolsai.jupyter
